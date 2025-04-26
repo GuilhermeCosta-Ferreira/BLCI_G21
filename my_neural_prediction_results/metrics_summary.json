@@ -1,0 +1,32 @@
+{
+    "conv1": {
+        "best_alpha": 8561872.909698997,
+        "mean_explained_variance": 0.0903000608086586,
+        "mean_correlation": 0.28292232129543005
+    },
+    "layer1": {
+        "best_alpha": 66889.63210702341,
+        "mean_explained_variance": 0.25445201992988586,
+        "mean_correlation": 0.48885615471842164
+    },
+    "layer2": {
+        "best_alpha": 66889.63210702341,
+        "mean_explained_variance": 0.308144748210907,
+        "mean_correlation": 0.5422970912240385
+    },
+    "layer3": {
+        "best_alpha": 33444.816053511706,
+        "mean_explained_variance": 0.2784667909145355,
+        "mean_correlation": 0.51722006904147
+    },
+    "layer4": {
+        "best_alpha": 33444.816053511706,
+        "mean_explained_variance": 0.2358975112438202,
+        "mean_correlation": 0.4762482403488077
+    },
+    "avgpool": {
+        "best_alpha": 33444.816053511706,
+        "mean_explained_variance": 0.05693359673023224,
+        "mean_correlation": 0.2759432434200648
+    }
+}
