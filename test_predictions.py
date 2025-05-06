@@ -17,7 +17,7 @@ class Swin_ResNet50_Hybrid(nn.Module):
 
         # ResNet50 (CNN branch)
         resnet = resnet50(weights=ResNet50_Weights.IMAGENET1K_V1)
-        self.cnn_branch = nn.Sequential(*list(resnet.children())[:-6])  # (B, 2048, 7, 7)
+        self.cnn_branch = nn.Sequential(*list(resnet.children())[:-6])  # Only go up to and include layer 2
         self.pool_cnn = nn.AdaptiveAvgPool2d((1, 1))  # (B, 512, 1, 1)
         self.output_scale = nn.Parameter(torch.tensor(1.0))  # add in model init
         self.out_dim = out_dim
@@ -70,10 +70,6 @@ def predict_stimulus(
 
     # Load stimulus
     stimulus_tensor = torch.tensor(stimulus_test).float()
-
-    # Normalize as in training
-    normalize = transforms.Normalize(mean=[0.5]*3, std=[0.5]*3)
-    stimulus_tensor = torch.stack([normalize(img) for img in stimulus_tensor])
 
     dataset = TensorDataset(stimulus_tensor)
     loader = DataLoader(dataset, batch_size=batch_size)
