@@ -1,32 +1,32 @@
 {
     "conv1": {
-        "best_alpha": 100000.0,
-        "mean_explained_variance": -0.08383119851350784,
-        "mean_correlation": 0.2084067061669089
+        "best_alpha": 212145.1784910632,
+        "mean_explained_variance": 0.09209011495113373,
+        "mean_correlation": 0.28508593982497465
     },
     "layer1": {
-        "best_alpha": 78678.67867867868,
-        "mean_explained_variance": 0.25358089804649353,
-        "mean_correlation": 0.48877630061108557
+        "best_alpha": 3696.9127071950284,
+        "mean_explained_variance": 0.22577707469463348,
+        "mean_correlation": 0.4578391241191233
     },
     "layer2": {
-        "best_alpha": 62062.06206206207,
-        "mean_explained_variance": 0.3081211745738983,
-        "mean_correlation": 0.5419503700491554
+        "best_alpha": 580.5225516094902,
+        "mean_explained_variance": 0.235309436917305,
+        "mean_correlation": 0.4677831368720866
     },
     "layer3": {
-        "best_alpha": 19319.319319319322,
-        "mean_explained_variance": 0.28587767481803894,
-        "mean_correlation": 0.5227793118939976
+        "best_alpha": 114.89510001873097,
+        "mean_explained_variance": 0.22878214716911316,
+        "mean_correlation": 0.46164330916566715
     },
     "layer4": {
-        "best_alpha": 15815.815815815817,
-        "mean_explained_variance": 0.24653057754039764,
-        "mean_correlation": 0.48452882820221294
+        "best_alpha": 22.739657523579286,
+        "mean_explained_variance": 0.22172541916370392,
+        "mean_correlation": 0.45394669470187987
     },
     "avgpool": {
-        "best_alpha": 100.10010010010011,
-        "mean_explained_variance": 0.17983396351337433,
-        "mean_correlation": 0.4157517119745561
+        "best_alpha": 1.0,
+        "mean_explained_variance": 0.07116613537073135,
+        "mean_correlation": 0.2868564560285633
     }
 }
