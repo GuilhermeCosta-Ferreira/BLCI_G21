@@ -1,5 +1,6 @@
 # Files
 *.h5
+*.pth
 
 # Folders
 __pycache__/
