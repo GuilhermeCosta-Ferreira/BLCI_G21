@@ -2,31 +2,43 @@
     "conv1": {
         "best_alpha": 8603464.416684508,
         "mean_explained_variance": 0.09002439677715302,
-        "mean_correlation": 0.2824779482070682
+        "mean_correlation": 0.2824779482070682,
+        "std_explained_variance": 0.0777529776096344,
+        "std_correlation": 0.1262616561289288
     },
     "layer1": {
         "best_alpha": 74881.03857590031,
         "mean_explained_variance": 0.2539602816104889,
-        "mean_correlation": 0.4887363217248682
+        "mean_correlation": 0.4887363217248682,
+        "std_explained_variance": 0.13587193191051483,
+        "std_correlation": 0.15072603040077576
     },
     "layer2": {
         "best_alpha": 66699.19663030129,
         "mean_explained_variance": 0.30793559551239014,
-        "mean_correlation": 0.5420898600119448
+        "mean_correlation": 0.5420898600119448,
+        "std_explained_variance": 0.13853563368320465,
+        "std_correlation": 0.14033767533960834
     },
     "layer3": {
         "best_alpha": 20970.46401323235,
         "mean_explained_variance": 0.2832205593585968,
-        "mean_correlation": 0.5200197354143941
+        "mean_correlation": 0.5200197354143941,
+        "std_explained_variance": 0.12581472098827362,
+        "std_correlation": 0.1317436131962595
     },
     "layer4": {
         "best_alpha": 18679.135990207847,
         "mean_explained_variance": 0.24187946319580078,
-        "mean_correlation": 0.47989521034363153
+        "mean_correlation": 0.47989521034363153,
+        "std_explained_variance": 0.114138163626194,
+        "std_correlation": 0.12864653537706774
     },
     "avgpool": {
         "best_alpha": 64.42363508721374,
         "mean_explained_variance": 0.18453626334667206,
-        "mean_correlation": 0.4198529161032664
+        "mean_correlation": 0.4198529161032664,
+        "std_explained_variance": 0.09113489836454391,
+        "std_correlation": 0.11698736177601846
     }
 }

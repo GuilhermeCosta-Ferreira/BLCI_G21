@@ -1,32 +1,44 @@
 {
     "conv1": {
-        "best_alpha": 212145.1784910632,
-        "mean_explained_variance": 0.09209011495113373,
-        "mean_correlation": 0.28508593982497465
+        "best_alpha": 3292.9712550971512,
+        "mean_explained_variance": 0.0895063728094101,
+        "mean_correlation": 0.2804544619974892,
+        "std_explained_variance": 0.07704631239175797,
+        "std_correlation": 0.12399045421126408
     },
     "layer1": {
-        "best_alpha": 3696.9127071950284,
-        "mean_explained_variance": 0.22577707469463348,
-        "mean_correlation": 0.4578391241191233
+        "best_alpha": 81.19844993184013,
+        "mean_explained_variance": 0.20279499888420105,
+        "mean_correlation": 0.4315757601697746,
+        "std_explained_variance": 0.1272551566362381,
+        "std_correlation": 0.14632367551890268
     },
     "layer2": {
-        "best_alpha": 580.5225516094902,
-        "mean_explained_variance": 0.235309436917305,
-        "mean_correlation": 0.4677831368720866
+        "best_alpha": 10.116379797662075,
+        "mean_explained_variance": 0.20852720737457275,
+        "mean_correlation": 0.4366505923108396,
+        "std_explained_variance": 0.12847919762134552,
+        "std_correlation": 0.1508733201567687
     },
     "layer3": {
-        "best_alpha": 114.89510001873097,
-        "mean_explained_variance": 0.22878214716911316,
-        "mean_correlation": 0.46164330916566715
+        "best_alpha": 1.5885651294280527,
+        "mean_explained_variance": 0.19067808985710144,
+        "mean_correlation": 0.4183474400754247,
+        "std_explained_variance": 0.11796484887599945,
+        "std_correlation": 0.14506825235580925
     },
     "layer4": {
-        "best_alpha": 22.739657523579286,
-        "mean_explained_variance": 0.22172541916370392,
-        "mean_correlation": 0.45394669470187987
+        "best_alpha": 1.0,
+        "mean_explained_variance": 0.18085291981697083,
+        "mean_correlation": 0.4116996812550798,
+        "std_explained_variance": 0.10968299210071564,
+        "std_correlation": 0.1415218947577554
     },
     "avgpool": {
         "best_alpha": 1.0,
-        "mean_explained_variance": 0.07116613537073135,
-        "mean_correlation": 0.2868564560285633
+        "mean_explained_variance": 0.05051514133810997,
+        "mean_correlation": 0.23476429513184563,
+        "std_explained_variance": 0.04916246235370636,
+        "std_correlation": 0.11432136759629913
     }
 }
