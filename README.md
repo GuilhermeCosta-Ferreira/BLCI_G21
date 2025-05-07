@@ -18,4 +18,5 @@ The repository contains several files and folders:
 
 - `week8` contains also a python notebook with our best performing model's training, rationale, and testing. We used a pretrained TinySwin transformer branch in parallel with a ResNet50 pretrained branch, connected to a MLP head that performs predictions. THis is to encorporate both high level retinal features as well as global attention to the entire image to hopeully predict neuron activations
 
-- `test_predictions.py` and `test.ipynb` contain what we need to test on new data, they rely on the model that we have trained and saved
+- At the end of the notebook, we have a few blocks that show how to load and run the best model
+<!-- - `test_predictions.py` and `test.ipynb` contain what we need to test on new data, they rely on the model that we have trained and saved -->
